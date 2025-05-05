@@ -1,0 +1,21 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(90vh - 120px);
+    margin-bottom: 50px;
+}
+
+.intro .intro-infos {
+    position: relative;
+    padding-inline: 40px;
+    font-size: 25px;
+}
+
+.intro i {
+    position: absolute;
+    top: -16px;
+    left: 1%;
+    font-size: 30px;
+    rotate: 25deg;
+}

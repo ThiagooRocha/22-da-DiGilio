@@ -1,0 +1,148 @@
+:root {
+    --bg-color: red;
+    --text-color: black;
+    --orange-500: oklch(70.5% 0.213 47.604);
+    --yellow-300: oklch(90.5% 0.182 98.111);
+    --lime-900: oklch(40.5% 0.101 131.063);
+    --cyan-500: oklch(71.5% 0.143 215.221);
+    --cyan-900: oklch(39.8% 0.07 227.392);
+    --sky-700: oklch(50% 0.134 242.749);
+    --violet-700: oklch(49.1% 0.27 292.581);
+    --fuchsia-800: oklch(45.2% 0.211 324.591);
+    --slate-100: oklch(96.8% 0.007 247.896);
+    --slate-200: oklch(92.9% 0.013 255.508);
+    --stone-950: oklch(14.7% 0.004 49.25);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100vw;
+    height: 100%;
+
+    overflow-x: hidden;
+    background:
+        radial-gradient(1px 1px at 10% 20%, white, transparent),
+        radial-gradient(1px 1px at 25% 40%, #aaa, transparent),
+        radial-gradient(1px 1px at 40% 70%, #ddd, transparent),
+        radial-gradient(1px 1px at 60% 30%, white, transparent),
+        radial-gradient(1px 1px at 80% 60%, #ccc, transparent),
+        radial-gradient(1px 1px at 90% 80%, #bbb, transparent),
+        radial-gradient(1px 1px at 30% 90%, white, transparent),
+        radial-gradient(1px 1px at 50% 50%, #eee, transparent),
+        radial-gradient(1px 1px at 10% 20%, white, transparent),
+        radial-gradient(1px 1px at 25% 40%, #aaa, transparent),
+        radial-gradient(1px 1px at 40% 70%, #ddd, transparent),
+        radial-gradient(1px 1px at 60% 30%, white, transparent),
+        radial-gradient(1px 1px at 80% 60%, #ccc, transparent),
+        radial-gradient(1px 1px at 90% 80%, #bbb, transparent),
+        radial-gradient(1px 1px at 30% 90%, white, transparent),
+        radial-gradient(1px 1px at 50% 50%, #eee, transparent),
+        radial-gradient(1px 1px at 10% 20%, white, transparent),
+        radial-gradient(1px 1px at 25% 40%, #aaa, transparent),
+        radial-gradient(1px 1px at 40% 70%, #ddd, transparent),
+        radial-gradient(1px 1px at 60% 30%, white, transparent),
+        radial-gradient(1px 1px at 80% 60%, #ccc, transparent),
+        radial-gradient(1px 1px at 90% 80%, #bbb, transparent),
+        radial-gradient(1px 1px at 30% 90%, white, transparent),
+        radial-gradient(1px 1px at 50% 50%, #eee, transparent),
+        radial-gradient(1px 1px at 10% 20%, white, transparent),
+        radial-gradient(1px 1px at 25% 40%, #aaa, transparent),
+        radial-gradient(1px 1px at 40% 70%, #ddd, transparent),
+        radial-gradient(1px 1px at 60% 30%, white, transparent),
+        radial-gradient(1px 1px at 80% 60%, #ccc, transparent),
+        radial-gradient(1px 1px at 90% 80%, #bbb, transparent),
+        radial-gradient(1px 1px at 30% 90%, white, transparent),
+        radial-gradient(1px 1px at 50% 50%, #eee, transparent),
+        radial-gradient(1px 1px at 10% 20%, white, transparent),
+        radial-gradient(1px 1px at 25% 40%, #aaa, transparent),
+        radial-gradient(1px 1px at 40% 70%, #ddd, transparent),
+        radial-gradient(1px 1px at 60% 30%, white, transparent),
+        radial-gradient(1px 1px at 80% 60%, #ccc, transparent),
+        radial-gradient(1px 1px at 90% 80%, #bbb, transparent),
+        radial-gradient(1px 1px at 30% 90%, white, transparent),
+        radial-gradient(1px 1px at 50% 50%, #eee, transparent),
+        radial-gradient(1px 1px at 10% 20%, white, transparent),
+        radial-gradient(1px 1px at 25% 40%, #aaa, transparent),
+        radial-gradient(1px 1px at 40% 70%, #ddd, transparent),
+        radial-gradient(1px 1px at 60% 30%, white, transparent),
+        radial-gradient(1px 1px at 80% 60%, #ccc, transparent),
+        radial-gradient(1px 1px at 90% 80%, #bbb, transparent),
+        radial-gradient(1px 1px at 30% 90%, white, transparent),
+        radial-gradient(1px 1px at 50% 50%, #eee, transparent),
+        radial-gradient(1px 1px at 10% 20%, white, transparent),
+        radial-gradient(1px 1px at 25% 40%, #aaa, transparent),
+        radial-gradient(1px 1px at 40% 70%, #ddd, transparent),
+        radial-gradient(1px 1px at 60% 30%, white, transparent),
+        radial-gradient(1px 1px at 80% 60%, #ccc, transparent),
+        radial-gradient(1px 1px at 90% 80%, #bbb, transparent),
+        radial-gradient(1px 1px at 30% 90%, white, transparent),
+        radial-gradient(1px 1px at 50% 50%, #eee, transparent),
+        radial-gradient(1px 1px at 10% 20%, white, transparent),
+        radial-gradient(1px 1px at 25% 40%, #aaa, transparent),
+        radial-gradient(1px 1px at 40% 70%, #ddd, transparent),
+        radial-gradient(1px 1px at 60% 30%, white, transparent),
+        radial-gradient(1px 1px at 80% 60%, #ccc, transparent),
+        radial-gradient(1px 1px at 90% 80%, #bbb, transparent),
+        radial-gradient(1px 1px at 30% 90%, white, transparent),
+        radial-gradient(1px 1px at 50% 50%, #eee, transparent),
+        radial-gradient(1px 1px at 10% 20%, white, transparent),
+        radial-gradient(1px 1px at 25% 40%, #aaa, transparent),
+        radial-gradient(1px 1px at 40% 70%, #ddd, transparent),
+        radial-gradient(1px 1px at 60% 30%, white, transparent),
+        radial-gradient(1px 1px at 80% 60%, #ccc, transparent),
+        radial-gradient(1px 1px at 90% 80%, #bbb, transparent),
+        radial-gradient(1px 1px at 30% 90%, white, transparent),
+        radial-gradient(1px 1px at 50% 50%, #eee, transparent),
+        linear-gradient(to right top, #0d1b2a, #0f1d2d, #121f30, #142134, #172337, #1a263a, #1c293d, #1f2c40, #223044, #253548, #29394c, #2c3e50);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    color: var(--slate-100);
+
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p, a {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.wrappler {
+    width: min(90%, 1500px);
+    padding-inline: 20px;
+    margin: 0 auto;
+}
+
+section {
+    padding-block: 60px;
+    height: 90vh;
+}
+
+section .section-title {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+section .section-title i {
+    font-size: 30px;
+}
