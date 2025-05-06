@@ -107,8 +107,7 @@ body {
     background-size: 100% 100%;
 
     color: var(--slate-100);
-
-
+    padding-bottom: 80px;
 }
 
 ul {
@@ -139,10 +138,30 @@ section {
 section .section-title {
     font-family: "Special Gothic Expanded One", sans-serif;
     font-style: normal;
+    color: #d3d5d8;
     font-weight: 400;
     letter-spacing: 1.5px;
+    padding-block: 30px;
+}
+
+section .section-desc {
+    margin-bottom: 30px;
+}
+
+section .section-desc strong {
+    text-decoration: underline;
+}
+
+section .section-desc span {
+    color: #4444ab;
 }
 
 section .section-title i {
     font-size: 30px;
 }
+
+@media (max-width: 690px) {
+    section {
+        height: initial;
+    }
+ }

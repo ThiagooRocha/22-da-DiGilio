@@ -1,21 +1,45 @@
 .intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: calc(90vh - 120px);
-    margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(90vh - 120px);
+  margin-bottom: 50px;
 }
 
 .intro .intro-infos {
-    position: relative;
-    padding-inline: 40px;
-    font-size: 25px;
+  position: relative;
+  padding-inline: 40px;
+  font-size: 25px;
 }
 
-.intro i {
-    position: absolute;
-    top: -16px;
-    left: 1%;
-    font-size: 30px;
-    rotate: 25deg;
+.intro span {
+  position: relative;
+}
+
+.intro span i {
+  position: absolute;
+  top: -100%;
+  left: -40%;
+  font-size: 30px;
+  rotate: 25deg;
+}
+
+@media (max-width: 690px) {
+  .intro {
+    height: initial;
+  }
+
+  .intro .wrappler {
+    padding-inline: 8px;
+    padding-top: 65px;
+    padding-bottom: 30px;
+  }
+
+  .intro .intro-infos {
+    padding-inline: 0px;
+  }
+
+  .intro .intro-infos p {
+    font-size: 20px;
+  }
 }

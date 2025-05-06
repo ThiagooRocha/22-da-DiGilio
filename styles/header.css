@@ -15,8 +15,8 @@
 
 .header .header-title i {
     position: absolute;
-    right: -30px;
-    top: -12px;
+    right: -9%;
+    top: -20%;
     font-size: 35px;
     text-shadow:
         0 0 3px #fff,
@@ -147,11 +147,52 @@
     color: #d3d5d8;
 }
 
+#header-nav-icon {
+    z-index: 10;
+}
+
 .header #header-nav-icon:hover,
 #header-nav-Closeicon:hover {
     font-size: 32px;
     color: var(--slate-100);
 }
+
+
+@media (max-width: 690px) {
+    .header .header-nav {
+
+        width: 80%;
+    }
+
+    .header-nav-content ul li a {
+        font-size: 25px;
+    }
+
+    .header .header-title h1 {
+        font-family: "Special Gothic Expanded One", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        width: min-content;
+    }
+
+    .header .header-title i {
+        position: absolute;
+        right: 1%;
+        top: -9%;
+        font-size: 35px;
+        text-shadow:
+            0 0 3px #fff,
+            0 0 10px #ccc;
+    }
+
+ }
+
+ @media (max-width: 480px) { 
+    .header {
+        justify-content: start;
+    }
+ }
 
 @keyframes shine {
     from {
